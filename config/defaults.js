@@ -6,15 +6,15 @@ define([], function() {
         //Appid: Specify the appid for a configured web application if available. In most cases you'll use the 
         //web map id value instead. The web map id is the id of the web map from ArcGIS Online that you
         //want to display in the application. 
-        "appid": "",
-        "webmap": "174966ecfd524979ac9a578d8ca404f2", 
+        "appid": "http://teamenv.maps.arcgis.com/home/item.html",
+        "webmap": "ca1e8e54e8254e27a2f826ac81a8c1bc", 
         //Enter the url to the proxy if needed by the applcation. See the 'Using the proxy page' help topic for details
         //http://developers.arcgis.com/en/javascript/jshelp/ags_proxy.html
         "proxyurl": "",
         //Specify the default color theme of the application. 
         "theme": "chrome", //valid values are seaside, chrome, pavement, gray
         "bingmapskey": "", //Enter the url to your organizations bing maps key if you want to use bing basemaps
-        "sharinghost": "http://www.arcgis.com", //Defaults to arcgis.com. Set this value to your portal or organization host name. 
+        "sharinghost": "http://www.teamenv.maps.arcgis.com", //Defaults to arcgis.com. Set this value to your portal or organization host name. 
         //If you've registered your application with arcgis online and have an oauth client id enter that value 
         //here. 
         "oauthappid": null, 
@@ -22,7 +22,7 @@ define([], function() {
         //HEADER: When true a header section is added to the application. If title and subtitle are specified
         //that information will be used to populate the header area. If no values are specified for title and 
         //subtitle the web map title and subtitle are used. 
-        "header":false,
+        "header":true
         "title": null,
         "subtitle": null,
         //FOOTER: When true and footer_text is supplied a footer section is added to the map. 
